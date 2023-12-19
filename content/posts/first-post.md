@@ -2,7 +2,7 @@
 title: First Post
 subtitle:
 date: 2023-12-19T09:16:00+11:00
-draft: true
+draft: false
 author:
   name:
   link:
@@ -14,9 +14,9 @@ license:
 comment: false
 weight: 0
 tags:
-  - draft
+  - first-post
 categories:
-  - draft
+  - blog
 hiddenFromHomePage: false
 hiddenFromSearch: false
 summary:
@@ -39,9 +39,7 @@ repost:
 Hello :woman_technologist:
 This is where it all starts.
 
-
 I know it is a strange time to refresh my blog as we're almost at the end of 2023. I have wanted to start this all year. Life happens, time flies by and here we are. Better late than never.
-
 
 
 <!--more-->
