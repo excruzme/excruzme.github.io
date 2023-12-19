@@ -1,0 +1,31 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'excruzme - Home'
+theme = 'FixIt'
+
+[params]
+    themeStyle                   = "auto"                  # Choose "light" or "dark" or "auto"
+    fadeIn                       = true                    # Turn on/off the fade-in effect
+    fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
+    dateFormat                   = "Dec 19, 2022"
+    email                        = "hello@excruz.me"       # E-mail address for contact section
+
+    # Configure the home page
+    [params.home]
+        introHeight              = "fullheight"            # Input either "medium" or "large" or "fullheight"
+        showLatest               = true                    # Show latest blog post summary
+        showAllPosts             = false                   # Set true to list all posts on home page, or set false to link to separate blog list page
+        allPostsArchiveFormat    = true                    # show all posts in an archive format
+        numberOfProjectsToShow   = 3                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
+        localTime                = true                    # Show your current local time in contact section
+        timeZone                 = "Australia/Melbourne"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+        timeFormat               = "en-AU"                 # Language specific format to use
+    
+    [[params.social]]
+        url   = "https://www.linkedin.com/in/jcruzau/"
+        icon  = "linkedin-in" # icon name without the 'fa-'
+        icon_pack = "fab"
+    [[params.social]]
+        url = "mailto:hello@excruz.me"
+        icon = "paper-plane" # icon name without the 'fa-'
+        icon_pack = "fas"
