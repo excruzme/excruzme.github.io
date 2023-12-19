@@ -1,4 +1,6 @@
 ### Hugo ###
+config.old.toml
+
 # Generated files by hugo
 /public/
 /resources/_gen/
