@@ -818,10 +818,10 @@ enableEmoji = 'true'
 
 # Author config
 [author]
-  name = "Joyce Cruz"
+  name = "Joyce"
   email = "joyce@joycecruz.com"
   link = "https://www.linkedin.com/in/jcruzau/"
-  avatar = "/images/avatar.png" # 
+  # avatar = "/images/avatar.png" # 
 
 # Sitemap config
 [sitemap]
